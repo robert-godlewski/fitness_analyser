@@ -2,13 +2,19 @@
 This is a fitness analyser to check progress on body measurements over time.
 
 # Setup
-Need to add in todos here....
+1. install python
+2. clone repository
+3. go inside the repository clone: % cd fitness_analyser
+4. .....create environment......
+5. activate environment: % pipenv shell
+6. install dependencies: % pip install
 
 We are using pipenv as the environment to use matplotlib library.
 
 # References
 ## Coding
 * https://matplotlib.org/
+* https://www.geeksforgeeks.org/plot-a-horizontal-line-in-matplotlib/
 
 ## Research of health calculations
 * https://www.cnn.com/2017/08/16/health/bmi-measure-fat-questions/index.html
@@ -33,7 +39,7 @@ All of these are float unless noted
 ## Calculated data
 * m = inch/39.37
 * kg = lbs/2.205
-* BMI = (weight kg)/(height**2 m**2)
+* BMI = (weight kg)/(height x height m x m)
 * Shoulder-Hip Ratio - Males = 1.6 (x<1.6 = need to do more Chest/Shoulder/Back strength and burn abs, x>1.6 = need to do more ab strength)
 * Waist-Hip Ratio - Males => 0.8 <= x < 0.9 and Females => 0.6 <= x <= 0.8
 * Body fat percentage based off of height-waist ratio = 50% at 34" waist and 68" height

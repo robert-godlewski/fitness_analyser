@@ -10,6 +10,7 @@ squares = [x**2 for x in values]
 # setting up graph
 plt.style.use('seaborn')
 fig, ax = plt.subplots()
+ax.axhline(y=5, color="yellow", linestyle='-')
 ax.plot(values, squares, linewidth=1)
 ax.scatter(values, squares, s=10)
 
