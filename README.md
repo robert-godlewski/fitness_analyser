@@ -9,12 +9,15 @@ This is a fitness analyser to check progress on body measurements over time.
 5. activate environment: % pipenv shell
 6. install dependencies: % pip install
 
-We are using pipenv as the environment to use matplotlib library.
+# Running the app
+1. activate environment: % pipenv shell
+2. run: % python fitness_analyser.py
 
 # References
 ## Coding
 * https://matplotlib.org/
 * https://www.geeksforgeeks.org/plot-a-horizontal-line-in-matplotlib/
+* https://www.sqlite.org/datatype3.html
 
 ## Research of health calculations
 * https://www.cnn.com/2017/08/16/health/bmi-measure-fat-questions/index.html
