@@ -18,6 +18,9 @@ This is a fitness analyser to check progress on body measurements over time.
 * https://matplotlib.org/
 * https://www.geeksforgeeks.org/plot-a-horizontal-line-in-matplotlib/
 * https://www.sqlite.org/datatype3.html
+* https://www.geeksforgeeks.org/how-to-convert-bytes-to-string-in-python/
+* https://wellsr.com/python/adapting-and-converting-sqlite-data-types-for-python/
+* https://www.tutorialspoint.com/python_data_access/python_sqlite_select_data.htm
 
 ## Research of health calculations
 * https://www.cnn.com/2017/08/16/health/bmi-measure-fat-questions/index.html
