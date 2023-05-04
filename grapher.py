@@ -32,8 +32,10 @@ data = {
     'hip': binaryToFloat(raw_data[9]),
     'thighs': binaryToFloat(raw_data[10]),
     'calf': binaryToFloat(raw_data[11]),
+    # Will need this for later
     #'notes': str(raw_data[12], 'utf-8'),
-    # 'is_metric': 'false'
+    # Will need this for later
+    #'is_metric': 'false'
 }
 
 print(data)
