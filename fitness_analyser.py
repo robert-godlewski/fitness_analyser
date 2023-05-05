@@ -1,5 +1,6 @@
 # Run this file in the Terminal
-from importcsv import importCSV
+from datahandler import importCSV, getAll
+#from converters import *
 
 
 class Fitness_Analyser():
@@ -16,6 +17,10 @@ class Fitness_Analyser():
         graph_q = "Do you want to graph the data"
         is_graphing = self.questioner(graph_q)
         while is_graphing:
+            # Step 1 grab data from db
+            data = getAll()
+            print(data)
+            # Step 2 graph data
             # need to actually do some graphing here
             is_graphing = self.questioner(graph_q)
         print("Thank you for using the fitness analyser.\nGood Bye!")
